@@ -1,3 +1,24 @@
 [submodule "PMDM-ProyectosAndroid"]
 	path = PMDM-ProyectosAndroid
 	url = https://github.com/estefaniapenide/PMDM-ProyectosAndroid.git
+[submodule "Repositorios_Alejandro/pmdm21"]
+	path = Repositorios_Alejandro/pmdm21
+	url = https://github.com/avidaldo/pmdm21.git
+[submodule "Repositorios_Alejandro/android-ciclodevidajava"]
+	path = Repositorios_Alejandro/android-ciclodevidajava
+	url = https://github.com/avidaldo/android-ciclodevida-java.git
+[submodule "Repositorios_Alejandro/android-eventos-java"]
+	path = Repositorios_Alejandro/android-eventos-java
+	url = https://github.com/avidaldo/android-eventos-java.git
+[submodule "Repositorios_Alejandro/android-java-y-kotlin"]
+	path = Repositorios_Alejandro/android-java-y-kotlin
+	url = https://github.com/avidaldo/android-java-y-kotlin.git
+[submodule "Repositorios_Alejandro/android-view-binding"]
+	path = Repositorios_Alejandro/android-view-binding
+	url = https://github.com/avidaldo/android-view-binding.git
+[submodule "Repositorios_Alejandro/android-eventos-kotlin"]
+	path = Repositorios_Alejandro/android-eventos-kotlin
+	url = https://github.com/avidaldo/android-eventos-kotlin.git
+[submodule "Repositorios_Alejandro/android-layouts-vistas"]
+	path = Repositorios_Alejandro/android-layouts-vistas
+	url = https://github.com/avidaldo/android-layouts-vistas.git
