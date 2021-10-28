@@ -4,9 +4,6 @@
 [submodule "Repositorios_Alejandro/pmdm21"]
 	path = Repositorios_Alejandro/pmdm21
 	url = https://github.com/avidaldo/pmdm21.git
-[submodule "Repositorios_Alejandro/android-ciclodevidajava"]
-	path = Repositorios_Alejandro/android-ciclodevidajava
-	url = https://github.com/avidaldo/android-ciclodevida-java.git
 [submodule "Repositorios_Alejandro/android-eventos-java"]
 	path = Repositorios_Alejandro/android-eventos-java
 	url = https://github.com/avidaldo/android-eventos-java.git
