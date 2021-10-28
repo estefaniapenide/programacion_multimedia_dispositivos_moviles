@@ -22,6 +22,6 @@
 [submodule "Repositorios_Alejandro/android-layouts-vistas"]
 	path = Repositorios_Alejandro/android-layouts-vistas
 	url = https://github.com/avidaldo/android-layouts-vistas.git
-[submodule "android-ciclodevida-java"]
-	path = android-ciclodevida-java
+[submodule "Repositorios_Alejandro/android-ciclodevida-java"]
+	path = Repositorios_Alejandro/android-ciclodevida-java
 	url = https://github.com/avidaldo/android-ciclodevida-java.git
