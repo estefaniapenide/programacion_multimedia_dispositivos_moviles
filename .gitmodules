@@ -16,18 +16,15 @@
 [submodule "Repositorios_Alejandro/android-eventos-kotlin"]
 	path = Repositorios_Alejandro/android-eventos-kotlin
 	url = https://github.com/avidaldo/android-eventos-kotlin.git
-[submodule "Repositorios_Alejandro/android-layouts-vistas"]
-	path = Repositorios_Alejandro/android-layouts-vistas
-	url = https://github.com/avidaldo/android-layouts-vistas.git
 [submodule "Repositorios_Alejandro/android-ciclodevida-java"]
 	path = Repositorios_Alejandro/android-ciclodevida-java
 	url = https://github.com/avidaldo/android-ciclodevida-java.git
-[submodule "Repositorios_Alejandro/android-calculadora"]
-	path = Repositorios_Alejandro/android-calculadora
-	url = https://github.com/avidaldo/android-calculadora.git
 [submodule "Repositorios_Alejandro/android-save-state"]
 	path = Repositorios_Alejandro/android-save-state
 	url = https://github.com/avidaldo/android-save-state.git
 [submodule "PMDM-Proyecto1"]
 	path = PMDM-Proyecto1
 	url = https://github.com/estefaniapenide/PMDM-Proyecto1.git
+[submodule "PMDM-ExamenPrueba1T"]
+	path = PMDM-ExamenPrueba1T
+	url = https://github.com/estefaniapenide/PMDM-ExamenPrueba1T.git

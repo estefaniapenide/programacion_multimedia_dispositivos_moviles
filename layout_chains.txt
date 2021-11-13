@@ -1,0 +1,176 @@
+xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#47AF55"
+
+    tools:context=".Registrar">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        style="@style/TEXTO_ROSA"
+        android:text="Insertar empleado"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/teNombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        style="@style/TEXTO_GRIS"
+        android:layout_marginEnd="12dp"
+        android:text="Nombre"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/teNombre"
+        app:layout_constraintEnd_toStartOf="@+id/teNombre" />
+
+    <EditText
+        android:id="@+id/teNombre"
+        style="@style/CAJA_ROSA"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/teApellido1"
+        app:layout_constraintStart_toStartOf="@+id/teApellido2"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitulo" />
+
+    <TextView
+        android:id="@+id/tvApellido1"
+        style="@style/TEXTO_GRIS"
+        android:layout_marginEnd="12dp"
+        android:text="Primer Apellido"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/teApellido1"
+        app:layout_constraintEnd_toStartOf="@+id/teApellido1" />
+
+    <EditText
+        android:id="@+id/teApellido1"
+        style="@style/CAJA_ROSA"
+        android:hint="Primer Apellido"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/teApellido2"
+        app:layout_constraintStart_toStartOf="@+id/teApellido2"
+        app:layout_constraintTop_toBottomOf="@+id/teNombre" />
+
+    <TextView
+        android:id="@+id/tvApellido2"
+        style="@style/TEXTO_GRIS"
+        android:layout_marginEnd="12dp"
+        android:text="Segundo Apellido"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/teApellido2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/teApellido2"
+        app:layout_constraintHorizontal_chainStyle="packed" />
+
+    <EditText
+        android:id="@+id/teApellido2"
+        style="@style/CAJA_ROSA"
+        android:hint="Segundo Apellido"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvApellido2"
+        app:layout_constraintTop_toBottomOf="@+id/teApellido1"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teApellido2">
+
+        <RadioButton
+            android:id="@+id/rbMujer"
+            style="@style/TEXTO_ROSA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:text="Mujer" />
+
+        <RadioButton
+            android:id="@+id/rbHombre"
+            style="@style/TEXTO_ROSA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hombre" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/etdIncorporacion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/rbProgramador"
+            style="@style/TEXTO_ROSA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programador" />
+
+        <RadioButton
+            android:id="@+id/rbComercial"
+            style="@style/TEXTO_ROSA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comercial" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvIncorporacion"
+        style="@style/TEXTO_GRIS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incorporación"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/etdIncorporacion"
+        app:layout_constraintEnd_toStartOf="@+id/etdIncorporacion"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/etdIncorporacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Fecha de incorporación"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/bRegistrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvIncorporacion"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+    <Button
+        android:id="@+id/bRegistrar"
+        style="@style/BOTONES_GRISES"
+        android:text="REGISTRAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etdIncorporacion" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
