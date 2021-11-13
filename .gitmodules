@@ -28,3 +28,6 @@
 [submodule "PMDM-ExamenPrueba1T"]
 	path = PMDM-ExamenPrueba1T
 	url = https://github.com/estefaniapenide/PMDM-ExamenPrueba1T.git
+[submodule "Repositorios_Alejandro/android-tirador-dados"]
+	path = Repositorios_Alejandro/android-tirador-dados
+	url = https://github.com/avidaldo/android-tirador-dados.git
