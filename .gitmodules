@@ -28,3 +28,12 @@
 [submodule "Repositorios_Alejandro/android-tirador-dados"]
 	path = Repositorios_Alejandro/android-tirador-dados
 	url = https://github.com/avidaldo/android-tirador-dados.git
+[submodule "Repositorios_Alejandro/android-layouts-vistas"]
+	path = Repositorios_Alejandro/android-layouts-vistas
+	url = https://github.com/avidaldo/android-layouts-vistas.git
+[submodule "Repositorios_Alejandro/android-calculadora"]
+	path = Repositorios_Alejandro/android-calculadora
+	url = https://github.com/avidaldo/android-calculadora.git
+[submodule "Repositorios_Alejandro/kotlin-apuntes"]
+	path = Repositorios_Alejandro/kotlin-apuntes
+	url = https://github.com/avidaldo/kotlin-apuntes.git
