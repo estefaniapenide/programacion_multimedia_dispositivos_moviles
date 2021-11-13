@@ -1,6 +1,3 @@
-[submodule "PMDM-ProyectosAndroid"]
-	path = PMDM-ProyectosAndroid
-	url = https://github.com/estefaniapenide/PMDM-ProyectosAndroid.git
 [submodule "Repositorios_Alejandro/pmdm21"]
 	path = Repositorios_Alejandro/pmdm21
 	url = https://github.com/avidaldo/pmdm21.git
