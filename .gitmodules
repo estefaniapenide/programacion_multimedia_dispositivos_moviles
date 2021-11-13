@@ -37,3 +37,6 @@
 [submodule "Repositorios_Alejandro/kotlin-apuntes"]
 	path = Repositorios_Alejandro/kotlin-apuntes
 	url = https://github.com/avidaldo/kotlin-apuntes.git
+[submodule "PMDM-ProyectosAndroid"]
+	path = PMDM-ProyectosAndroid
+	url = https://github.com/estefaniapenide/PMDM-ProyectosAndroid.git
