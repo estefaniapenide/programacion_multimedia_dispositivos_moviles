@@ -40,3 +40,6 @@
 [submodule "PMDM-ProyectosAndroid"]
 	path = PMDM-ProyectosAndroid
 	url = https://github.com/estefaniapenide/PMDM-ProyectosAndroid.git
+[submodule "PMDM-CALCULADORA"]
+	path = PMDM-CALCULADORA
+	url = https://github.com/estefaniapenide/PMDM-CALCULADORA.git
