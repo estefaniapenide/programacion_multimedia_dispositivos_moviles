@@ -31,9 +31,6 @@
 [submodule "Repositorios_Alejandro/android-layouts-vistas"]
 	path = Repositorios_Alejandro/android-layouts-vistas
 	url = https://github.com/avidaldo/android-layouts-vistas.git
-[submodule "Repositorios_Alejandro/android-calculadora"]
-	path = Repositorios_Alejandro/android-calculadora
-	url = https://github.com/avidaldo/android-calculadora.git
 [submodule "Repositorios_Alejandro/kotlin-apuntes"]
 	path = Repositorios_Alejandro/kotlin-apuntes
 	url = https://github.com/avidaldo/kotlin-apuntes.git
@@ -43,3 +40,6 @@
 [submodule "PMDM-CALCULADORA"]
 	path = PMDM-CALCULADORA
 	url = https://github.com/estefaniapenide/PMDM-CALCULADORA.git
+[submodule "Repositorios_Alejandro/pmdm20"]
+	path = Repositorios_Alejandro/pmdm20
+	url = https://github.com/avidaldo/pmdm20.git
