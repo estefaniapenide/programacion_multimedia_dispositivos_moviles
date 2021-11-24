@@ -52,3 +52,6 @@
 [submodule "Repositorios_Alejandro/android-activities"]
 	path = Repositorios_Alejandro/android-activities
 	url = https://github.com/avidaldo/android-activities.git
+[submodule "PMDM-MisEventosKotlin"]
+	path = PMDM-MisEventosKotlin
+	url = https://github.com/estefaniapenide/PMDM-MisEventosKotlin.git

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Examen</string>
+    <string name="contar">Contar</string>
+    <string name="enviar">Enviar</string>
+    <string name="registrar">Registrar</string>
+    <string name="insertar_empleado">Insertar Empleado</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido1">Primer Apellido</string>
+    <string name="apellido2">Segundo Apellido</string>
+</resources>
