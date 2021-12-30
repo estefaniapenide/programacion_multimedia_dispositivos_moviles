@@ -1,0 +1,4 @@
+fragments
+recicle view
+objetos
+kotlin
