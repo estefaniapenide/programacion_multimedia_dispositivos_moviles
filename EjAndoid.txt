@@ -1,0 +1,1 @@
+Hacer el 4, de forma que haya dos textView, cada uno con su menú contextual. Una de las opciones del menú contextual será ocultar el textView correspondiente.

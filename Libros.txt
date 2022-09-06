@@ -1,0 +1,3 @@
+#### Libros de consulta utilizados en la preparación del módulo:  
+- [Kotlin and Android Development featuring Jetpack - Michael Fazio (2021)](https://pragprog.com/titles/mfjetpack/kotlin-and-android-development-featuring-jetpack/)
+- [Programming Kotlin - Venkat Subramaniam (2019)](https://pragprog.com/titles/vskotlin/programming-kotlin/)
